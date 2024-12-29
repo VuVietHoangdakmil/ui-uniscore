@@ -1,5 +1,5 @@
-import Header from "./component/header";
-import ContainerWidth from "@/component/container/container-wrap-width";
+import Header from "./components/header";
+import ContainerWidth from "@/components/container/container-wrap-width";
 
 import HomePage from "./pages/home";
 

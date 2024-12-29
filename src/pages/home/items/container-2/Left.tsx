@@ -1,7 +1,7 @@
-import WrapperChart from "@/component/charts/config/wrapperChart";
+import WrapperChart from "@/components/charts/config/wrapperChart";
 import LineChart, {
   options as LineChartT,
-} from "@/component/charts/config/Linechart";
+} from "@/components/charts/config/Linechart";
 
 const optionsLine: LineChartT = {
   responsive: true,

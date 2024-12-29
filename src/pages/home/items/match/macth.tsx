@@ -1,4 +1,4 @@
-import ContainerItem from "@/component/container/container-item";
+import ContainerItem from "@/components/container/container-item";
 import macthes from "@/files/matchList.json";
 import { Matches } from "@/types/data/maches";
 import { Event } from "@/types/event";

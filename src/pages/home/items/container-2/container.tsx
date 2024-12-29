@@ -1,4 +1,4 @@
-import ContainerItem from "@/component/container/container-item";
+import ContainerItem from "@/components/container/container-item";
 import Left from "./Left";
 import Right from "./Right";
 const Container = () => {

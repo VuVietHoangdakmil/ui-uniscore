@@ -1,4 +1,4 @@
-import ContainerItem from "@/component/container/container-item";
+import ContainerItem from "@/components/container/container-item";
 import dataJson from "@/files/playerInfo.json";
 import { Info as InfoType } from "@/types/data/info";
 import Name from "./Left";
