@@ -1,4 +1,4 @@
-import { forwardRef, useEffect, useState } from "react";
+import { forwardRef } from "react";
 
 import { Line } from "react-chartjs-2";
 import { ChartData, ChartOptions } from "chart.js";
