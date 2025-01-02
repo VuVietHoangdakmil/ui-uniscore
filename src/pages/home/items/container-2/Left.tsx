@@ -73,7 +73,7 @@ const Left: React.FC = () => {
           background:
             "linear-gradient(124.54deg, rgba(10, 31, 85, 0.4) 0%, rgba(16, 44, 115, 0.4) 27.66%, rgba(12, 26, 76, 0.4) 70.02%)",
         }}
-        className="border-[1px] border-blue-900 h-[192px] xl:w-[60%] w-full max-w-[100%] rounded-md p-3 overflow-hidden  pb-[34px]"
+        className="border-[1px]  border-blue-900 h-[192px] xl:w-[60%] w-full max-w-[100%] rounded-md p-3 overflow-hidden  pb-[34px]"
       >
         <div className="flex justify-between mb-2">
           {listsrc.map((src, index) => (

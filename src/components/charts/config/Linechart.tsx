@@ -1,4 +1,4 @@
-import { forwardRef } from "react";
+import { forwardRef, useEffect, useState } from "react";
 
 import { Line } from "react-chartjs-2";
 import { ChartData, ChartOptions } from "chart.js";
@@ -9,13 +9,6 @@ type Props = {
   data: data;
 };
 const LineT = forwardRef<any, Props>(({ options, data }, ref) => {
-  return (
-    <Line
-      ref={ref}
-      options={options}
-      style={{ width: "100%", height: "100%" }}
-      data={data}
-    />
-  );
+  return <Line ref={ref} options={options} data={data} />;
 });
 export default LineT;

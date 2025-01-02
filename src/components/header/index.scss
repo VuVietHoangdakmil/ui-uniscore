@@ -4,4 +4,8 @@
 .slide-pane__content{
     background-color:#020C20 ;
     padding: 10px;
+   
+}
+.slide-pane__overlay{
+    z-index: 999 !important;
 }

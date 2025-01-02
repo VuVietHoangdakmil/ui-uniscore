@@ -77,14 +77,14 @@ const General: React.FC<GeneralType> = ({
       <div className="basis-1/2 sm:border-l-[1.5px] boder-t-[1.5px]  boder-r[1.5px] border-custome-border">
         <ContentGeral
           src={"./Icons/Jersey.svg"}
-          title="jersey number"
+          title="Jersey number"
           content={{ title1: shirtNumber + "" }}
         />
       </div>
       <div className="basis-1/2 border-l-[1.5px] boder-t-[1.5px]  boder-r[1.5px] border-custome-border">
         {" "}
         <ContentGeral
-          src={"./Icons/Spain.svg"}
+          src={"./Icons/icons-soccer-field.png"}
           title="Position"
           content={{ title1: position }}
         />

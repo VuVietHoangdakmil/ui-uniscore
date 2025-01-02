@@ -43,7 +43,7 @@ const DrawMenu: React.FC<Props> = ({ className }) => {
 };
 const Header: React.FC = () => {
   return (
-    <header className="sticky top-0 w-full h-[62px] bg-gradient-header ">
+    <header className="sticky z-10 top-0 w-full h-[62px] bg-gradient-header ">
       <Container>
         <div className="flex justify-between items-center h-full">
           <div className="flex items-center">
@@ -52,7 +52,7 @@ const Header: React.FC = () => {
           </div>
 
           <Avartar className="max-sm:hidden" />
-          <DrawMenu className="sm:hidden" />
+          <DrawMenu className="sm:hidden " />
         </div>
       </Container>
     </header>
